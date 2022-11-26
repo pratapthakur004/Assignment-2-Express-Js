@@ -1,0 +1,28 @@
+html 
+head 
+title 
+body 
+include boot.html 
+
+//table
+table.table.table-striped 
+    thead 
+        tr 
+            th(scope='col') #
+            th(scope='col') Name
+            th(scope='col') Email
+            th(scope='col') Mobile No.
+            th(scope='col') Address
+    -for(let i=0,j=1; i<file.length;j++,i++){
+        //spliting the database
+        -h=file[i].split(",")
+        tbody 
+            tr 
+                th(scope='row') 
+                td=h[0]
+                td=h[1] 
+                td=h[2]
+                td=h[3]
+                td=h[4]
+    -}
+

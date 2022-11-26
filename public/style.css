@@ -1,0 +1,55 @@
+.main{
+    background: url(./images/bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 560px;
+    z-index: 0;
+}
+.headerset{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.headerset h1{
+    font-size: 90px;
+    font-weight: bold;
+}
+.headerset h1{
+    font-size: 50px;
+}
+.logo-a{
+    text-decoration: none;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.ourservices{
+    padding: 50px 60px 50px 60px;
+    background-color: aliceblue;
+    position: relative;
+    top: 50px;
+    margin-top: 170px;
+    z-index: 0;
+}
+
+.row{
+    background-color: white;
+}
+
+.card1,.card2,.card3{
+    margin-top: 10px;
+    padding: 40px 0px;
+    border-left: 6px;;
+    background-color: antiquewhite;
+    z-index: 0;
+}
+.cardh{
+    padding-bottom: 20px;
+}
+.cardp{
+    padding-bottom: 50px;
+}
+.card2{
+    margin-left: 6px;
+    margin-right: 6px;
+}

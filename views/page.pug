@@ -1,0 +1,85 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous')
+  link(rel='stylesheet' href='style.css')
+  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css')
+  title Webpage
+img(src='' alt='')
+script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM' crossorigin='anonymous')
+.main
+  nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+    .container-fluid
+      a.h3.logo-a.text-warning.font-weight-bold(href='#') NeoSOFT Technologies
+      button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarNav.collapse.navbar-collapse.justify-content-end
+        ul.navbar-nav
+          li.nav-item
+            a.nav-link.h5.active(aria-current='page' href='#') Home
+          li.nav-item
+            a.nav-link.h5.active(aria-current='page' href='#services') Services
+          li.nav-item
+            a.nav-link.h5.active(aria-current='page' href='#aboutus') About US
+          li.nav-item
+            a.nav-link.h5.active(aria-current='page' href='gallery') Gallery
+          li.nav-item
+            a.nav-link.h5.active(aria-current='page' href='contactUs') Contact Us
+          li.nav-item
+            a.nav-link.h5.active(aria-current='page' href='contactDetails') Contact Details
+  .container.text-white.text-center.headerset
+    h2 Welcome To Our Studio
+    h1 IT&apos;S NICE TO MEET YOU
+    a.btn.btn-warning.text-white.btn-lg(href='contactUs') Contact Us
+  .container.text-center.ourservices#services
+   .container
+    h2 Services
+    p.servicespara
+    | NeoSOFT brings in deep domain and industry experience to build unique perspectives and meet the challenging requirements of clients from diverse industries. Leveraging the unique triple bottom line approach,
+    | we have achieved tangible results and unlocked opportunities for growth, innovation, and value creation.
+    .row
+      .col.card1
+        div
+          i.bi.bi-cart-check-fill(style='font-size:\
+          40px;')
+        h4.cardh Data Analysis
+        p.cardp
+          | Empowering business with top-notch solutions to help them to grow in the competative environment.
+      .col.card2
+        div
+          i.bi.bi-cart-check-fill(style='font-size:\
+          40px;')
+        h4.cardh E-Commerce Websites
+        p.cardp
+          | Empowering business with top-notch solutions to help them to grow in the competative environment.
+      .col.card3
+        div
+          i.bi.bi-cart-check-fill(style='font-size:\
+          40px;')
+        h4.cardh Artificial intelligence
+        p.cardp
+          | Empowering business with top-notch solutions to help them to grow in the competative environment.
+
+
+    section.container.text-center.mt-5#aboutus
+      h2.text-center Our Amazing Team
+      p.text-center
+        | We believe that creating a viable product or service requires a balanced operational strategy. Having the right variables in place is critical and everything, from leadership to digital transformation, organizational talent, and management practices, needs to be integrated for effective development.
+      .row
+        .col-md-4.d-block.m-auto
+          figure.figure
+            img.figure-img.img-fluid.rounded-circle(src='../public/images/sumit.jpg' alt='' width='250px' height='250px')
+            figcaption
+              h4 Sumit Joshi
+        .col-md-4.d-block.m-auto
+          figure.figure
+            img.figure-img.img-fluid.rounded-circle(src='../public/images/sumit.jpg' alt='' width='250px' height='250px')
+            figcaption
+              h4 Sumit Joshi
+        .col-md-4.d-block.m-auto
+          figure.figure
+            img.figure-img.img-fluid.rounded-circle(src='../public/images/sumit.jpg' alt='' width='250px' height='250px')
+            figcaption
+              h4 Sumit Joshi

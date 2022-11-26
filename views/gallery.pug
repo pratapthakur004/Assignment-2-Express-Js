@@ -1,0 +1,48 @@
+html 
+head 
+title Gallery 
+body 
+include boot.html 
+// Storing online images into array
+-let arrayImg=["https://images.unsplash.com/photo-1541363111435-5c1b7d867904?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZHVtbXl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"];
+
+h1(style="text-align:center;padding:30px") Gallery 
+    // Traversing through array of images
+    each i in arrayImg 
+        .row(style="margin-top:20px; padding:10px;")
+            .col-sm-4
+                .responsive 
+                .gallery 
+                    a(target='_blank' href='#')
+                    // Sending links into img tag to render images
+                    img(src=i alt='Cinque Terre' width='400' height='300')
+            .col-sm-4 
+                .responsive 
+                .gallery 
+                    a(target='_blank' href='#')
+                    // Sending links into img tag to render images
+                    img(src=i alt='Cinque Terre' width='400' height='300')
+            .col-sm-4 
+                .responsive 
+                .gallery 
+                    a(target='_blank' href='#')
+                    // Sending links into img tag to render images
+                    img(src=i alt='Cinque Terre' width='400' height='300')
+            .col-sm-4 
+                .responsive 
+                .gallery 
+                    a(target='_blank' href='#')
+                    // Sending links into img tag to render images
+                    img(src=i alt='Cinque Terre' width='400' height='300')
+            .col-sm-4 
+                .responsive 
+                .gallery 
+                    a(target='_blank' href='#')
+                    // Sending links into img tag to render images
+                    img(src=i alt='Cinque Terre' width='400' height='300')
+            .col-sm-4 
+                .responsive 
+                .gallery 
+                    a(target='_blank' href='#')
+                    // Sending links into img tag to render images
+                    img(src=i alt='Cinque Terre' width='400' height='300')
